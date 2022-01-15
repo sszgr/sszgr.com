@@ -4,11 +4,6 @@ jQuery(function($) {
 
     var _Blog = window._Blog || {};
 
-    _Blog.prettify = function() {
-        $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
-        window.prettyPrint && prettyPrint();
-    };
-
     _Blog.externalUrl = function() {
         $.expr[':'].external = function(obj) {
             return !obj.href.match(/^mailto\:/) &&
@@ -18,16 +13,6 @@ jQuery(function($) {
         $(".external").attr('target', '_blank');
 
     }
-
-    _Blog.changeTitle = function() {
-        var currentTitle = document.title;
-        window.onblur = function() {
-            document.title = 'I miss you!（＞﹏＜）';
-        }
-        window.onfocus = function() {
-            document.title = currentTitle;
-        }
-    };
 
     _Blog.toggleTheme = function() {
         const currentTheme = window.localStorage && window.localStorage.getItem('theme')
@@ -48,8 +33,6 @@ jQuery(function($) {
     }
 
     $(document).ready(function() {
-        _Blog.prettify()
-        _Blog.changeTitle()
         _Blog.toggleTheme()
         _Blog.toggleMobileMenu()
     });
