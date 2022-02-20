@@ -3,7 +3,6 @@ title: "My Windows PC"
 date: 2022-01-15
 draft: false
 ---
-
 最近Windows 11的推送越来越频繁了，刚好也想体验下关注已久的[WSLg](https://github.com/microsoft/wslg)项目，就折腾一下自己的备用本，顺便做下配置记录。
 
 Link: https://github.com/sszgr/my-windows-pc
@@ -48,14 +47,16 @@ example.yaml
 │   └── icons
 ├── Program Files (x86)
 ├── Program Files
-├── Code
-│   ├── public
-│   │   ├── github.com
-│   │   └── gitee.com
-│   └── private
-│       ├── localhost
-│       ├── github.com
-│       └── gitee.com
+├── Develpoer
+│   ├── gitwork
+│   │   └── github.com
+│   ├── shwork
+│   ├── pywork
+│   └── gowork
+│       ├── src
+│       │   └── golang.org
+│       ├── pkg
+│       └── bin
 └── Downloads
     ├── WeGame
     ├── Thunder
