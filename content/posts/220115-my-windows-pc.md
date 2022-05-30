@@ -139,3 +139,5 @@ wsl --set-version kali-linux 2
 22. [Burp Suite](https://portswigger.net/burp)
 
 23. [Kleopatra](https://www.gpg4win.org/)
+
+24. [MindLine](http://www.mindline.cn/)
