@@ -14,5 +14,5 @@ draft: false
 
 ### 常用
 
-- [在线图形绘制工具](/tools/line-chart.html)
+- [在线图形绘制工具](/tools/linechart.html)
 - [安全密码生成工具](https://sec.sszgr.com/)
